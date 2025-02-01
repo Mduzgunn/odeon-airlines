@@ -14,7 +14,12 @@ Odeon Airlines REST API, uçuş yönetimi ve kullanıcı işlemleri için geliş
 ## Authentication
 API, JWT (JSON Web Token) tabanlı authentication kullanmaktadır. Protected endpoint'lere erişim için geçerli bir JWT token gerekmektedir.
 
-Frontend projesi: [https://github.com/Mduzgunn/odeon-airlines](https://github.com/Mduzgunn/odeon-airlines-fe)
+## Endpoints
+### Swagger
+http://localhost:8080/swagger-ui/index.html#/
+
+### Frontend
+[https://github.com/Mduzgunn/odeon-airlines](https://github.com/Mduzgunn/odeon-airlines-fe)
 
 ## Images
 
@@ -38,10 +43,6 @@ Frontend projesi: [https://github.com/Mduzgunn/odeon-airlines](https://github.co
 
 ![](images/error.png )
 
-## Endpoints
-
-### Swagger
-http://localhost:8080/swagger-ui/index.html#/
 
 ### Authentication
 - **Register** - `POST /api/auth/register`
